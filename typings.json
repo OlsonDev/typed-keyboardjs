@@ -2,7 +2,7 @@
   "name": "keyboardjs",
   "main": "index.d.ts",
   "homepage": "https://github.com/RobertWHurst/KeyboardJS",
-  "version": "",
+  "version": "2.2.0",
   "devDependencies": {
     "blue-tape": "registry:npm/blue-tape#0.1.0+20160322235613"
   },

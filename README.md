@@ -1,24 +1,22 @@
-# Typed Keyboard Js
-The type definition for [`keyboardjs`](https://github.com/RobertWHurst/KeyboardJS)
+# Typed KeyboardJS
+The type definition for [`KeyboardJS`](https://github.com/RobertWHurst/KeyboardJS).
 
-## LICENSE
+## License
 MIT
 
 ## Contributing
-
 ```sh
 # Fork this repo
 npm install
 
 npm run watch
 
-# add tests, make changes, pass tests ... then [ctrl+c]
+# Add tests, make changes, pass tests ... then [Ctrl+c]
 npm run publish
 ```
 
 ## Updating
-Update `typings.json/version` to match the source version you are typing against.
-e.g. if you are creating typings for `chai@3.5.0`, then:
+Update `typings.json`'s `"version"` to match the source version you are typing against. E.g.:
 ```js
 // typings.json
 {
