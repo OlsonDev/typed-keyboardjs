@@ -6,19 +6,11 @@ import {
 	EventHandler as ImportedEventHandler
 } from './lib/keyboard';
 
-declare module keyboardjs {
-	class Locale extends ImportedLocale {}
-	class KeyCombo extends ImportedKeyCombo {}
-	class Keyboard extends ImportedKeyboard {}
-	interface KeyEvent extends ImportedKeyEvent {}
-	interface EventHandler extends ImportedEventHandler {}
+export class Locale extends ImportedLocale {}
+export class KeyCombo extends ImportedKeyCombo {}
+export class Keyboard extends ImportedKeyboard {}
+export interface KeyEvent extends ImportedKeyEvent {}
+export interface EventHandler extends ImportedEventHandler {}
 
-	class Export {
-		static Keyboard: typeof keyboardjs.Keyboard;
-		static KeyCombo: typeof keyboardjs.KeyCombo;
-		static Locale: typeof keyboardjs.Locale;
-		static default: keyboardjs.Keyboard;
-	}
-}
-
-export = keyboardjs.Export;
+declare const out: Keyboard;
+export default out;
