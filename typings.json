@@ -7,7 +7,7 @@
 		"blue-tape": "registry:npm/blue-tape#0.1.0+20160322235613"
 	},
 	"ambientDevDependencies": {
-		"node": "registry:dt/node#4.0.0+20160319033040"
+		"node": "registry:dt/node#4.0.0+20160412142033"
 	},
 	"files": [
 		"lib/keyboard.d.ts",
