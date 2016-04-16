@@ -6,7 +6,7 @@ export interface KeyEvent extends KeyboardEvent {
 }
 
 export interface EventHandler {
-	(e?: KeyEvent): void;
+	(e?: KeyEvent): any;
 }
 
 export class Keyboard {
